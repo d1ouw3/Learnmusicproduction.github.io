@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Learn Music Production</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/main.css"
+
+</head>
+<body>
+    <div class="containter">
+
+            <div class="nav-wrapper">
+                <div class="left-side">
+                    <div class="nav-link-wrapper active-nev-link">
+                        <a href="index.html">HOME</a>
+                    </div>
+
+                    <div class="nav-link-wrapper">
+                        <a href="about.html">ABOUT</a>
+                    </div>
+
+                    <div class="nav-link-wrapper">
+                        <a href="questions.html">CONTACT</a>
+                    </div>
+
+                    <div class="nav-link-wrapper">
+                        <a href="Store.html">STORE</a>
+                    </div>
+
+
+                </div>
+
+                <div class="right-side">
+
+                    <div class="brand">
+                        <div>DOUWE KRAMER</div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="kutknop">  
+                <div class="introductie" id="blur">
+                    <div class="content">
+                        <img src="Images/photo-1507067785756-5bf1d1cdfacb.jpg">
+                        <a href="#/" onclick="toggle()">Learn More</a>
+                    </div>                    
+                </div>
+                <div id="popup">
+                    <h2>Letter From Douwe.</h2>
+                    <p>I see you are interested in making music? You have come to the right place! 
+                        You will find here everything you will need, take a look!
+                    </p>
+                    <a href="#/" onclick="toggle()">Close</a>
+                </div>
+            </div>  
+
+                <script type="text/javascript">
+                    function toggle(){        
+                        var blur = document.getElementById('blur');
+                        blur.classList.toggle('active');
+                        var popup = document.getElementById('popup');
+                        popup.classList.toggle('active');
+                    }
+                </script>
+            </div>
+        
+            <div>   
+                <br>
+            </div>  
+
+        <div class="epischetekst">
+            <div class="titleEpischeTekst">
+                <h1>Always wanted to learn making music?</h1>
+            </div>
+            <div class="gewoneTekst">
+                <p>
+                    Are you interested in making music, need a mix/master for your new song or wanna dive into the wonderess world of sounddesign? The you have come to the right place.
+                    Interested in a single cursus er a multiple weeks of lessons? It's all possible! All lessons are solo to get maximum value out of your course. 
+                </p>
+            </div>
+        </div>
+                
+        
+        <div>   
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        </div>  
+        
+
+            <div class="home-screem">
+                <div class="home-info">
+                
+                    <div class="home-item">
+                        <div class="foto1achtergrond" style="background-image:url(Images/Live10_01-5cvWYbezlH9gOJrsfhJtjhd2sUz1VCLG.jpg)"> </div>
+
+                        <div class="img-text-wrapper">                       
+                            <div class="subtitle">
+                                Ableton, FL studio or Reaper introduction or in depth courses.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="home-item">
+                        <div class="foto1achtergrond" style="background-image:url(Images/vital-preview.png)"> </div>
+
+                        <div class="img-text-wrapper">
+                            <div class="subtitle">
+                                In depth sounddesign lessons with Serum, Massive, Sylenth, Vital, Diva or a synth of your choise.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="home-item">
+                        <div class="foto1achtergrond" style="background-image:url(Images/photo-1466428996289-fb355538da1b.jpg)"> </div>
+
+                        <div class="img-text-wrapper">
+                            <div class="subtitle">
+                                Learn everything there is to know about mixing and mastering.
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>  
+    </div>
+</body>
+<script>
+    const homeItem = document.querySelectorAll('.home-item')
+
+    homeItem.forEach(homeItemev => {
+        homeItemev.addEventListener('mouseover',() => {
+            homeItemev.childNodes[1].classList.remove('img-brighten');
+            homeItemev.childNodes[1].classList.add('img-darken'); 
+        })
+
+        homeItemev.addEventListener('mouseout',() => {
+            homeItemev.childNodes[1].classList.add('img-brighten');
+
+        })
+    })
+</script>
+</html>

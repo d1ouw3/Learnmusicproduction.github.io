@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Resting At The Bonfire</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/main.css"
+
+</head>
+<body>
+    <div class="containter">
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="nav-link-wrapper">
+                    <a href="index.html">HOME</a>
+                </div>
+
+                <div class="nav-link-wrapper">
+                    <a href="about.html">ABOUT</a>
+                </div>
+
+                <div class="nav-link-wrapper">
+                    <a href="questions.html">QUESTIONS</a>
+                </div>
+            </div>
+
+            <div class="right-side">
+                <div class="brand">
+                    <div>DOUWE KRAMER</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="home-screem">
+            <div class="home-info">
+            
+                <div class="home-item">
+                    <div class="foto1achtergrond" style="background-image:url(Images/vital-preview.png)"> </div>
+
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="Images/vital-preview.png">
+                        </div>
+
+                        <div class="subtitle">
+                            In depth sounddesign lessons with Serum, Massive, Sylenth, Vital, Diva or a synth of your choise.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="home-item">
+                    <div class="foto1achtergrond" style="background-image:url(Images/Live10_01-5cvWYbezlH9gOJrsfhJtjhd2sUz1VCLG.jpg)"> </div>
+
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="Images/Live10_01-5cvWYbezlH9gOJrsfhJtjhd2sUz1VCLG.jpg">
+                        </div>
+
+                        <div class="subtitle">
+                            Ableton, FL studio or Reaper introduction or in depth courses.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="home-item">
+                    <div class="foto1achtergrond" style="background-image:url(Images/photo-1466428996289-fb355538da1b.jpg)"> </div>
+
+                    <div class="img-text-wrapper">
+                        <div class="logo-wrapper">
+                            <img src="Images/photo-1466428996289-fb355538da1b.jpg">
+                        </div>
+
+                        <div class="subtitle">
+                            Learn everything there is to know about miixing and mastering.
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+</body>
+</html>
